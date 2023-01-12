@@ -126,7 +126,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile file("config/extera.jks")
+//            storeFile file("config/extera.jks")
         }
     }
 
@@ -139,7 +139,7 @@ android {
             debuggable false
             jniDebuggable true
             applicationIdSuffix ".beta"
-            signingConfig signingConfigs.release
+//            signingConfig signingConfigs.release
             minifyEnabled true
             shrinkResources true
             multiDexEnabled true
@@ -152,7 +152,7 @@ android {
         release {
             debuggable false
             jniDebuggable false
-            signingConfig signingConfigs.release
+//            signingConfig signingConfigs.release
             minifyEnabled true
             shrinkResources true
             multiDexEnabled true
